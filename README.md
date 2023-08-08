@@ -9,7 +9,7 @@ Node JS, Express, MongoDB, Javascript, EJS, HTML, CSS
 2. install all the necessary packages:  npm i 
 3. start the app: node index.js
 
-# Walk through of Application and each screen
+# Walk through of the Application and each screen
 
 1. Login screen:
 Sign In page allows the existing employee/admin to log in to the ERS app. Even if you are new you can go for sign-up by clicking on sign-up on the nav bar or clicking on register user below submit button
@@ -21,24 +21,24 @@ The signUp page allows users to register to the app, If you are the first user t
 
 3. Forget Password Screen:
 Here users can be able to reset the password, only need to add their name, email, and a new password and confirm it.
-<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/6ed39116-ca89-4691-b4fe-4b5fbfb9501c">
+
 
 
 4. Home Page:
 This screen shows the assigned review task assigned by the admin which has to be completed by the user and also the reviews the user has received from other users.
-<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/1b3aca52-afb7-450b-b4d7-02aecdb09207">
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/6ed39116-ca89-4691-b4fe-4b5fbfb9501c">
 
 5. AssignTask Page (Only Admin View):
 This screen is only available for the admin to assign the review task to an employee and also to promote an existing employee to admin.
-<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/60a8e829-a758-4ee1-9ac4-fb4dd4ec6fb7">
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/1b3aca52-afb7-450b-b4d7-02aecdb09207">
 
 6. Employee list screen (Only Admin View):
 This screen is only available for the Admin to see the data of the user and also to delete any user from the database.
-<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/f462116d-8d15-41ad-a693-551de71a35e1">
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/60a8e829-a758-4ee1-9ac4-fb4dd4ec6fb7">
 
 7. Add a new Employee screen (Only Admin View):
 This screen is only available for the Admin to add new users to the database.
-![Uploading image.png…]()
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/f462116d-8d15-41ad-a693-551de71a35e1">
 
 #Folder Structure 
 ```
