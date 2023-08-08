@@ -38,7 +38,7 @@ This screen is only available for the Admin to see the data of the user and also
 
 7. Add a new Employee screen (Only Admin View):
 This screen is only available for the Admin to add new users to the database.
-![Uploading image.png…]()
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/786eecdf-7ff0-4677-8713-67019cd2ae5d">
 
 #Folder Structure 
 
