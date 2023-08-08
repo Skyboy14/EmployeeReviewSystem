@@ -42,45 +42,45 @@ This screen is only available for the Admin to add new users to the database.
 
 #Folder Structure 
 
-Employee_review_system/
-│
-├── config/
-│   ├── mongoose.js
-│   └── passport-local.js
-|
-├── controllers/
-│   ├── admin_controllers.js
-|   ├── home_controllers.js
-|   ├── review_controllers.js
-│   └── user_controller.js
-|
-├── models/
-│   ├── review.js
-│   └── user.js
-|
-├── node_modules/
-│   ├── review.js
-│   └── user.js
-│
-├── public/
-│   ├── css/
-│   └── images/
-|
-├── routes/
-│   ├── admin.js
-|   ├── index.js
-|   ├── review.js
-│   └── user.js
-│
-├── views/
-│   ├── layouts/
-│   └── partials/
-|
-├── .gitignore
-├── index.js
-├── package-lock.json
-├── package.json
-└── README.md
+`Employee_review_system/`
+`│`
+`├── config/`
+`│   ├── mongoose.js`
+`│   └── passport-local.js`
+`|`
+`├── controllers/`
+`│   ├── admin_controllers.js`
+`|   ├── home_controllers.js`
+`|   ├── review_controllers.js`
+`│   └── user_controller.js`
+`|`
+`├── models/`
+`│   ├── review.js`
+`│   └── user.js`
+`|`
+`├── node_modules/`
+`│   ├── review.js`
+`│   └── user.js`
+`│`
+`├── public/`
+`│   ├── css/`
+`│   └── images/`
+`|`
+`├── routes/`
+`│   ├── admin.js`
+`|   ├── index.js`
+`|   ├── review.js`
+`│   └── user.js`
+`│`
+`├── views/`
+`│   ├── layouts/`
+`│   └── partials/`
+`|`
+`├── .gitignore`
+`├── index.js`
+`├── package-lock.json`
+`├── package.json`
+`└── README.md`
 
 
   
