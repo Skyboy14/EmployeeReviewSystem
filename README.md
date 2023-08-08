@@ -21,7 +21,7 @@ The signUp page allows users to register to the app, If you are the first user t
 
 3. Forget Password Screen:
 Here users can be able to reset the password, only need to add their name, email, and a new password and confirm it.
-
+<img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/b0ee616d-62b2-4466-80d9-05375e5bbffa">
 
 
 4. Home Page:
