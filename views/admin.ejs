@@ -1,0 +1,59 @@
+<div class="mainCover2">
+    <div class="heading2">Hey Admin, please assign Recipient and Reviewer</div>
+    <div class="body2">
+        <div class="sidea1">
+            <div class="setTask">
+                <div class="admintext">
+                   hey <%= locals.user.name%> ,  Assign Task
+                </div>              
+                
+                <form action="/admin/setReviewes" method="POST" class="revierSetForm">
+                    <div>
+                        Set Reviewer
+                        <select class="form-select form-select" aria-label="Default select example" name="sender">
+                            <option selected>Sender</option>
+                            <% for(let i = 0; i<employe.length ; i++){ %>                            
+                                <option value= <%= employe[i].id %> > <%= employe[i].name %> </option>                            
+                            <%}%>    
+                        </select>
+                    </div>
+
+                    <div >
+                    Set Recipient
+                        <select class="form-select form-select" aria-label="Default select example" name="reciver">
+                            <option selected>receiver</option>
+                            <% for(let i = 0; i<employe.length ; i++){ %>                        
+                                <option value= <%= employe[i].id %> > <%= employe[i].name %> </option>                            
+                            <%}%>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 5px;">
+                        <button type="submit">Assign</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="sideb1">
+            <div class="setTask">
+                <div class="admintext" style="padding-bottom: 10px;">Promote to Admin</div>
+        
+                <form method="POST" action="/admin/newAdmin" class="makeadmin">
+                    <select class="form-select form-select" aria-label="Default select example" name="selectedUser">
+                        <option selected>Company Employee</option>
+                        <% for(let i = 0; i<employe.length ; i++){ %>                            
+                            <option value= <%= employe[i]._id %> > <%= employe[i].name %> </option>                            
+                        <%}%>
+                    </select>
+        
+                    <div>
+                        <button type="submit">Promote</button>
+                    </div>
+        
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

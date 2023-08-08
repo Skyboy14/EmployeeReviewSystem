@@ -1,0 +1,47 @@
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <%if(locals.user){%>
+        <div class="mainCover3">            
+
+            <div class="bodyCover3">
+                <div class="sidea3">
+                    <div class="title3">Kindly, review your co-employees<br>
+                    <i><h6>This task is assigned by the Admin</h6></i>
+                    </div>
+
+                    <div class="cardCover" >
+                        <% for(let i = 0 ;i<recipent.length ; i++ ) {%>
+                            <%if(recipent[i] != null) {%>
+                                <div class="card3">
+                                    <h6>
+                                        To :<i class="fa-regular fa-user"></i> <%= recipent[i].name%>
+                                    </h6>
+                                    <div >
+                                        <form action="/reviews/newReview/<%= recipent[i]._id %>" method="get" class="card3-in">
+                                            <textarea class="formClass" name="newReview"
+                                            id="floatingTextarea2" style="width: 250px; height: 75px;">        
+                                            </textarea>
+                                            <br>
+                                            <button type="submit" > Submit <i class="fa-regular fa-paper-plane"></i> </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            <%}%>
+                        <%}%>   
+                    </div>
+                </div>
+
+                <div class="sideb3">
+                <div class="title3">My Reviews</div>                    
+                        <div style="padding-left: 94px; padding-top: 27px;" >
+                            <% for(let review of reviews ) {%>
+                                <div class="card3 reviewBox"  >
+                                    <div style="display: flex; flex-direction: row;"><h5 >Review:</h5><p><%= review.content %> </p></div>
+                                    <div class="reviewBoxSender">From : <%= review.name %> </div>
+                                </div>
+                            <%}%>    
+                        </div>
+                 </div>
+            </div>
+        </div>
+    <%}%>

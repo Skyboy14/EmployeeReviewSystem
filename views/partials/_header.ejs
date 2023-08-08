@@ -1,0 +1,29 @@
+
+    <div class="header">
+        <div class="headerTitle"><a href="/">Employe Review System</a></div>
+        <% if (locals.user){ %>
+            <%if(locals.user.isAdmin){%>
+                <div class="alternativeText">                    
+                    <a href="/admin/assignWork"> Assign Task</small> </a>
+                    <a href="/admin/view-employee"> <small>Employees</small> </a>
+                    <a href="/admin/add-employee"> <small> Add Employee </small> </a>
+                    <a href="/users/sign-out"><i class="fa-solid fa-right-from-bracket"></i> <small>SignOut</small></a>
+
+                    <span ><i class="fa-solid fa-user"></i><%= locals.user.name%>  </span> 
+                </div>
+            <%}else{%>    
+                
+            <div class="alternativeText">
+                <a href="/users/sign-out"><i class="fa-solid fa-right-from-bracket"></i> <small>SignOut,</small> </a> 
+                <span><i class="fa-solid fa-user"></i><%= locals.user.name%></span>
+            </div>
+            <%}%>
+            
+        <%} else { %>
+            <div class="alternativeText">
+                <a href="/users/sign-in"><i class="fa-solid fa-right-to-bracket"></i><small></small> SignIn </a>
+                <a href="/users/sign-up"><i class="fa-solid fa-user-plus"></i><small></small> SignUp </a>
+            </div>
+        
+        <%}%>       
+    </div>

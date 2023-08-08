@@ -1,0 +1,34 @@
+.mainCover{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 50px;
+    background-image: url('../images/pexels-karol-d-323645.jpg');
+    height: 90vh;
+}
+.sidea{
+    padding: 20px 60px 20px 30px
+}
+.mainTile{
+    font-size: xxx-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(243 238 238 / 50%);
+}
+.description{
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+}
+.mainContainer1{
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+    background-color: lavender;
+}
+.forgotPassword{
+    font-size: x-small;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 38px;
+    margin-top: 5px;
+}

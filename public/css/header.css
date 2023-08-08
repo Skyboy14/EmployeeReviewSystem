@@ -1,0 +1,32 @@
+.headerTitle{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.alternativeText{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.headerTitle a{
+
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}

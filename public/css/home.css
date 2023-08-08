@@ -1,0 +1,53 @@
+.mainCover3{
+    background-image: url('../images/pexels-karol-d-323645.jpg');
+    height: 90vh;
+}
+.title3{
+    font-size: x-large;
+    font-style: italic;
+    padding: 40px;
+    text-align: center;
+}
+.bodyCover3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cardCover{
+    display: flex;
+    padding-left: 100px;
+    flex-direction: column;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 13px;
+    background-color: bisque;
+    width: max-content;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.card3-in{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.reviewBox{
+    min-width: 450px;
+    max-width: 451px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.reviewBoxSender{
+    background-color: greenyellow;
+    padding: 3px 20px;
+    width: max-content;
+    border-radius: 5px;
+}
+.ForgetCover{
+    background-image: url('../images/pexels-pixabay-372787.jpg');
+    height: 90vh;
+}
