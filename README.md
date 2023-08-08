@@ -42,6 +42,8 @@ This screen is only available for the Admin to add new users to the database.
 
 #Folder Structure 
 
+```
+
 `Employee_review_system/`
 `│`
 `├── config/`
@@ -81,6 +83,6 @@ This screen is only available for the Admin to add new users to the database.
 `├── package-lock.json`
 `├── package.json`
 `└── README.md`
-
+```
 
   
