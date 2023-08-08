@@ -2,7 +2,7 @@
 An employee review system is a structured process organizations use to assess and evaluate employees' performance, skills, and contributions. It typically involves regular feedback sessions, goal-setting, and performance discussions between employees and their supervisors to facilitate workplace growth, alignment, and improvement.
 
 #tech stack
-Node JS, Express, MongoDB, Javascript, EJS, HTML, CSS
+Node JS, Express, MongoDB, Javascript, EJS, CSS
 
 #start Project
 1. Git clone the repo: git clone https://github.com/Skyboy14/EmployeeReviewSystem.git
