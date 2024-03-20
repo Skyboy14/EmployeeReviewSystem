@@ -1,13 +1,13 @@
 # EmployeeReviewSystem
 An employee review system is a structured process organizations use to assess and evaluate employees' performance, skills, and contributions. It typically involves regular feedback sessions, goal-setting, and performance discussions between employees and their supervisors to facilitate workplace growth, alignment, and improvement.
 
-##Live Demo :
+## Live Demo :
 https://brainy-pike-sock.cyclic.app/users/sign-in
 
-#tech stack
+# tech stack
 Node JS, Express, MongoDB, Javascript, EJS, CSS
 
-#start Project
+# start Project
 1. Git clone the repo: git clone https://github.com/Skyboy14/EmployeeReviewSystem.git
 2. install all the necessary packages:  npm i 
 3. start the app: node index.js
@@ -43,7 +43,7 @@ This screen is only available for the Admin to see the data of the user and also
 This screen is only available for the Admin to add new users to the database.
 <img width="960" alt="image" src="https://github.com/Skyboy14/EmployeeReviewSystem/assets/96543258/f462116d-8d15-41ad-a693-551de71a35e1">
 
-#Folder Structure 
+# Folder Structure 
 ```
 Employee_review_system/
 │
